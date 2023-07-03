@@ -69,5 +69,5 @@ def test_monte_carlo():
 
     assert len(list(filter(lambda y: y < 10000, map(lambda x: x[-1], bettor_v2_results)))) == 9
     assert len(list(filter(lambda y: y < 10000, map(lambda x: x[-1], scaler_bettor_results)))) == 15
-    assert len(list(filter(lambda y: y < 10000, map(lambda x: x[-1], general_bettor_results)))) == 7
+    assert len(list(filter(lambda y: y < 10000, map(lambda x: x[-1], general_bettor_results)))) == 33
 
